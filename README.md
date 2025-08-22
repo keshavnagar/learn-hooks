@@ -97,3 +97,16 @@ setCar(prevState => ({...prevState,color:"yellow"}) )
 so my doubt is remove like if we want to change the state the whole functino is like to change the state and the prevState is a current state that is passed by react itself with their memory system as argument like if we put here any name argument that is our currentState and that is the object or any thing like string , variable, numbers , array everything can be
 
 so that's how we overcome the problem of overwriten in state with the help of spread , arrow function and argument,
+
+# UseEffect Hook
+
+so basically useEffect hook is for fetch the data from API or External source into the components
+
+It is mendatory things
+
+now we just understand its syntax
+
+# basic of use effect function:
+
+so basicaly i learn the concept of useEffect and that is i understood like first i create the that syntax and connect use effect hook with input field that is already connected with the use state hook where i press everytime any of the key the useeffect hook is run, and it only use one thing like the value of use state property that value I put into dependency arrray of useEffect 
+

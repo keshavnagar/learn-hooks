@@ -1,6 +1,7 @@
 import OneUseState from "./components/OneUseState";
 import MultipleUseState from "./components/MultipleUseState";
 import MultiUseStateAlt from "./components/MultiUseStateAlt";
+import UseEffect from "./components/UseEffect";
 const App = () => {
   return (
     <>
@@ -8,6 +9,7 @@ const App = () => {
       <OneUseState />
       <MultipleUseState />
       <MultiUseStateAlt />
+      <UseEffect/>
     </>
   );
 };
