@@ -1,10 +1,11 @@
-import oneUseState from "./components/oneUseState";
+import OneUseState from "./components/OneUseState";
+import MultipleUseState from "./components/MultipleUseState";
 const App = () => {
-  
   return (
     <>
       <h1>Learn Hooks</h1>
-      <oneUseState/>
+      <OneUseState />
+      <MultipleUseState />
     </>
   );
 };
