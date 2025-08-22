@@ -1,5 +1,4 @@
-import OneUseState from "./components/OneUseState";
-import MultipleUseState from "./components/MultipleUseState";
+import OneUseState from "./components/neUseState";
 const App = () => {
   return (
     <>
