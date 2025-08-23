@@ -110,3 +110,8 @@ now we just understand its syntax
 
 so basicaly i learn the concept of useEffect and that is i understood like first i create the that syntax and connect use effect hook with input field that is already connected with the use state hook where i press everytime any of the key the useeffect hook is run, and it only use one thing like the value of use state property that value I put into dependency arrray of useEffect 
 
+# setInterval method in react : 
+
+set interval is a function that contain a functino that execute within delay that also passed with it in this function 
+we clear this set interval with the help of clear interval functoin 
+if we direct off this function in one second so just store the setinterval function in a variable that store its id and pass into clear interval function argument side

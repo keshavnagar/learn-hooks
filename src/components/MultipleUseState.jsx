@@ -7,7 +7,7 @@ const MultipleUseState = () => {
   const [color, setColor] = useState("blue");
   return (
     <>
-      <h2>My {brand} </h2>
+      <h2 >My {brand} </h2>
       <h3>
         It is {color} {model} from {year}
       </h3>
