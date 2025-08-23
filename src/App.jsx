@@ -5,7 +5,9 @@ import UseEffect from "./components/UseEffect";
 import UseEffect2 from "./components/UseEffect2";
 import Timer from "./components/Timer";
 import Mount from "./components/Mount";
+import { useState } from "react";
 const App = () => {
+  const [show, setShow] = useState(true);
   return (
     <>
       <h1 className="text-2xl font-bold font-serif">Learn Hooks</h1>
@@ -14,8 +16,10 @@ const App = () => {
       <MultiUseStateAlt />
       <UseEffect />
       <UseEffect2 />
-      <Timer/>
-      <Mount/>
+      <Timer />
+      <Mount />
+      <button onClick={() => setShow(!show)}>Toggle Mount Component</button>
+      {show && <Mount />}
     </>
   );
 };
